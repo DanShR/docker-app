@@ -14,7 +14,7 @@ const client = new Client({
 
 client.connect()
 
-const form = '<div><form action="/add"><input name=text><input type="submit"></form></div>'
+const form = '<div><div>zalupa</div><form action="/add"><input name=text><input type="submit"></form></div>'
 
 const index = async (req, res) => {
     const result = await client.query('select * from messages')
